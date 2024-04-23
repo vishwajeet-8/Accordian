@@ -1,0 +1,69 @@
+@media only screen and (max-width: 376px) {
+  * {
+    margin: 0%;
+  }
+
+  .hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 150vh;
+    padding: 20px;
+    background: linear-gradient(0deg, #ffcc00 50%, orange 50%),
+      url(./assets/images/background-pattern-mobile.svg);
+  }
+  .main {
+    width: 350px;
+    background-color: hsl(0, 0%, 100%);
+    padding: 15px;
+    border-radius: 15px;
+    overflow: hidden;
+    font-family: "Work Sans", sans-serif;
+  }
+
+  .head {
+    display: flex;
+    align-items: start;
+  }
+  .head svg {
+    margin: 10px;
+  }
+  .head h1 {
+    margin: 10px;
+    color: hsl(292, 42%, 14%);
+    font-weight: 700;
+  }
+  .questions {
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+
+  .questionHead {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .question h3 {
+    color: hsl(292, 42%, 14%);
+    font-weight: 600;
+    margin-right: 30px;
+  }
+  .question svg :hover {
+    cursor: pointer;
+  }
+
+  .answer {
+    margin-top: 15px;
+  }
+
+  .answerPara {
+    display: none;
+  }
+  .hr {
+    height: 1px;
+    width: 270px;
+    background-color: rgb(219, 214, 214);
+    margin-top: 25px;
+    margin-bottom: 25px;
+  }
+}
